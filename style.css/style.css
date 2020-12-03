@@ -7,7 +7,7 @@
 }
 header{
     height: 110px;
-    background-color: #2311eb;
+    background-color: #393845;
 }
 .imglogo{
     height: 100px;
@@ -31,12 +31,14 @@ header{
                                 /* menu  */
 
 .menu{
-    border: 2px solid gray;
+    border: 2px solid #393845;
     height: 40px;
     padding-top: 7px;
 }
 .menubar li{
-    border: 1px solid gray;
+    padding:2px;
+    border-radius: 5px;
+    border: 1px solid #393845;
     display: inline-block;
     font-size: 20px;
     margin-left: 4%;
@@ -47,7 +49,7 @@ header{
     color: darkblue;
 }
 .menubar li:hover,.menubar li a:hover{
-    background-color: gray;
+    background-color: #393845;
     color: wheat;
     border-radius: 10px 0px 10px 0px;
 }
@@ -55,7 +57,7 @@ header{
 
 .branch{
     height: 60px;
-    background-color: gray;
+    background-color: #393845;
     color: wheat;
     font-size: 40px;
     font-style: italic;
@@ -66,14 +68,14 @@ header{
                                /* content  */
 
 .box{
-    border: 2px solid gray;
+    border: 2px solid #393845;
     width: 85%;
     margin-top: 30px;
     margin-left: 7.5%;
     border-radius: 20px 0px 20px 0px;
 }
 .boxhover:hover{
-    background-color: gray;
+    background-color: #393845;
     color: wheat;
     transition-duration: .5s;
 }
